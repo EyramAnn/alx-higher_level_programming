@@ -1,42 +1,26 @@
 #!/usr/bin/python3
-import math
-"""
-Module that writes class MagicClass to emulate
-Python bytecode
+"""Define a MagicClass matching exactly a bytecode provided by Holberton."""
 
-"""
+import math
 
 
 class MagicClass:
-    """Magic class
+    """Represent a circle."""
 
-    Emulatyes python bytecode
-
-    """
     def __init__(self, radius=0):
-        """init
-
-        getting the radius
-
+        """Initialize a MagicClass.
+        Arg:
+            radius (float or int): The radius of the new MagicClass.
         """
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
-            raise TypeError('radius must be a number')
-        else:
-            self.__radius = radius
+            raise TypeError("radius must be a number")
+        self.__radius = radius
 
     def area(self):
-        """Area
-
-        calculates the area
-
-        """
-        return (self.__radius ** 2) * math.pi
+        """Return the area of the MagicClass."""
+        return (self.__radius ** 2 * math.pi)
 
     def circumference(self):
-        """Circumference
-
-        Calculates the circumference
-
-        """
-        return (2 * math.pi) * self.__radius
+        """Return The circumference of the MagicClass."""
+        return (2 * math.pi * self.__radius)
