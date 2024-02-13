@@ -1,8 +1,9 @@
 <h1>0x0D. SQL - Introduction</h1>
 <br><br>
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg">
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg" width="800" height="900">
 
 TASKS:
+
 0. Write a script that lists all databases of your MySQL server: Write a script that lists all databases of your MySQL server.
 1. Create a database: Write a script that creates the database hbtn_0c_0 in your MySQL server.
 2. Delete a database: Write a script that deletes the database hbtn_0c_0 in your MySQL server.
