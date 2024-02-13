@@ -1,4 +1,5 @@
-*0x0D. SQL - Introduction*
+<h1>0x0D. SQL - Introduction</h1>
+<br><br>
 <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg">
 
 TASKS:
